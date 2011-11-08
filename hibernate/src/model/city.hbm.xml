@@ -8,7 +8,7 @@
             </generator>
         </id>
 
-        <property column="city" length="255" name="city" not-null="true" type="string"/>
+        <property column="name" length="255" name="name" not-null="true" type="string"/>
         <property column="state" length="2" name="state" not-null="true" type="string"/>
     </class>
 </hibernate-mapping>

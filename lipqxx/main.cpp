@@ -28,7 +28,7 @@ int main(){
         work W(Conn, "List Cities");
 
         //Execute an query and receive the result
-		result R = W.exec("SELECT id, city, state FROM cities");
+		result R = W.exec("SELECT id, name, state FROM cities");
 		//cout << "Found " << R.size() << "employees:" << endl;
 
 		//Print the results

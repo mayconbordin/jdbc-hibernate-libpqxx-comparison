@@ -1,12 +1,8 @@
 package model;
 
-/**
- *
- * @author maycon
- */
 public class City {
     private int id;
-    private String city;
+    private String name;
     private String state;
 
     /**
@@ -24,17 +20,17 @@ public class City {
     }
 
     /**
-     * @return the city
+     * @return the name
      */
-    public String getCity() {
-        return city;
+    public String getName() {
+        return name;
     }
 
     /**
-     * @param city the city to set
+     * @param name the name to set
      */
-    public void setCity(String city) {
-        this.city = city;
+    public void setName(String name) {
+        this.name = name;
     }
 
     /**

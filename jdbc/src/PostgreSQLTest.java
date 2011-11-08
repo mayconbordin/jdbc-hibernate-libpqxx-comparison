@@ -20,7 +20,7 @@ class PostgreSQLTest {
             Statement s = c.createStatement();
 
             //Execute the query and receive the result
-            ResultSet rs = s.executeQuery("SELECT id, city, state FROM cities");
+            ResultSet rs = s.executeQuery("SELECT id, name, state FROM cities");
 
             //Print the result set
             /*while (rs.next()) {
